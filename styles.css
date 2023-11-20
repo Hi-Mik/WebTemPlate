@@ -205,6 +205,7 @@ p {
 #cont {
     background: rgba(67, 186, 253, 0.06);
     max-width: 2560px;
+    margin-bottom: 208px;
 }
 .form-page-head {
     display: flex;
