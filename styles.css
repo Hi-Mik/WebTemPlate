@@ -3,16 +3,19 @@
     src: url('assets/fonts/Poppins-Regular.ttf');
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'Poppins';
     src: url('assets/fonts/Poppins-Bold.ttf');
     font-weight: bold;
 }
+
 @font-face {
     font-family: "Jost";
     src: url("assets/fonts/Jost-Regular.ttf");
     font-weight: 400;
 }
+
 @font-face {
     font-family: "Jost";
     src: url("assets/fonts/Jost-Bold.ttf");
@@ -24,6 +27,7 @@ body {
     padding: 0;
     margin: 0; 
 }
+
 h2 {
     font-family: Poppins;
     font-size: 48px;
@@ -32,6 +36,7 @@ h2 {
     margin: 0;
     padding: 0;
 }
+
 h3 {
     font-family: Poppins;
     font-size: 30px;
@@ -40,6 +45,7 @@ h3 {
     margin: 0;
     padding: 0;
 }
+
 p {
     font-family: Poppins;
     font-size: 24px;
@@ -48,6 +54,7 @@ p {
     margin: 0;
     padding: 0;
 }
+
 .sr-only {
     position: absolute;
   
@@ -63,20 +70,25 @@ p {
   }
 
        /* Hero section */
+
 .hero-section {
     margin: 0px 78px 200px 76px;
     max-width: 2560px;
 }
+
        /* header style */
+
 .hero-section header {
     display: flex;
     justify-content: space-between;
     align-items: center;;
     padding-top: 45px;
 }
+
 .hero-section nav {
     width: 70%;
 }
+
 .hero-section nav ul {
     display: flex;
     justify-content: space-around;
@@ -84,6 +96,7 @@ p {
 
     list-style-type: none;
 }
+
 .hero-section nav ul li a{
     font-family: Poppins;
     font-size: 30px;
@@ -91,8 +104,10 @@ p {
     font-weight: 400;
     text-decoration: none;
 }
+
 .header-logo {
     color: #0E0578;
+    mix-blend-mode: darken;
 }
 
       /* main of hero section */
@@ -103,23 +118,28 @@ p {
     top: 0;
     left: 0;
 }
+
 .main-text p {
     color: #383838;
 }
+
 .hero-section span {
     color: #F2BD00;
 }
+
 .main-img {
     position: absolute;
     left: 690px;
     top: 0;
 }
+
 .buttons {
     width: 575px;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
+
 .btn{
     width: 246px;
     height: 72px;
@@ -132,14 +152,17 @@ p {
     box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
+
 .btn:active { 
     transform: scale(0.98); 
     box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.25); 
 }
+
 .purp-btn {
     background-color: #2000E7;
     color: white;
 }
+
 .w-btn {
     background: rgba(32, 0, 231, 0.04);
     color: #2000E7;
@@ -156,16 +179,20 @@ p {
     padding-bottom: 66px;
     background: rgba(67, 186, 253, 0.06);
 }
+
 .text-abme {
     padding-top: 200px;
 }
+
 .text-abme h2 {
     letter-spacing: 16.8px;
 }
+
 .button-2-abme {
     margin-left: 40px;
     margin-top: 50px;
 }
+
 .dude-items {
     position: absolute;
     float: right;
@@ -181,21 +208,25 @@ p {
     background: rgba(255, 214, 150, 0.20);
     max-width: 2560px;
 }
+
 [class^=row] {
     display: flex;
     justify-content: space-around;
     margin-top: 66px;
 }
+
 .head-third-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 35px;
 }
+
 .head-third-page h2 {
     letter-spacing: 9.6px;
     color: #3B1FEA;
 }
+
 .car-img {
     border-radius: 6px;
 }
@@ -207,20 +238,26 @@ p {
     max-width: 2560px;
     margin-bottom: 208px;
 }
+
 .form-page-head {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 67px;
 }
+
 .form-page-head h2 {
     letter-spacing: 17.28px;
     font-size: 64px;
     color: #220BE8;
 }
+
 #cont main {
-    background-image: image-set();
+    position: relative;
+    left: 0;
+    top: 0;
 }
+
 #cont form {
     display: flex;
     flex-direction: column;
@@ -228,6 +265,7 @@ p {
     margin: 160px 0 50px 66px;
     width: 550px;
 }
+
 #cont input,
 textarea,
 button {
@@ -244,20 +282,39 @@ button {
     border: 0;
     box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 #cont textarea {
     height: 265px;
     resize: none;
 }
+
 .contact-btn {
     align-self: center;
     cursor: pointer;
     width: 300px;
     background-color: white;
+    margin-bottom: 208px;
 }
+
 .contact-btn:active { 
     transform: scale(0.98); 
     box-shadow: 2px 4px 3px 1px rgba(0, 0, 0, 0.25); 
 }
+
 ::placeholder {
     color: #000;
+}
+
+.laptop-guy{
+    position: absolute;
+    left: 505px;
+    top: -60px;
+}
+
+        /* footer */
+
+footer {
+    max-width: 2560px;
+    height: 809px;
+    background-color: rgba(255, 214, 150, 0.20);
 }
