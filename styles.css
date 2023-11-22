@@ -404,14 +404,40 @@ footer {
     font-weight: 400;
 }
 
-.separating-line {
-    margin: 100px 40px;
-    max-width: 93%;
-    height: 3px;
-    background: #000;
+.bottom{
+    padding-bottom: 170px;
+    position: relative;
 }
 
-.bottom-text {
-    padding-bottom: 50px;
-    margin-left: 40px;
+.separating-line {
+    height: 3px;
+    background: #000;
+    position: absolute;
+    right: 40px;
+    left: 40px;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    left: 40px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.logos > div {
+    width: 70px;
+    height: 70px;
+}
+
+#youtube-logo {
+    padding-top: 5px;
+    margin-right: 20px;
 }
