@@ -26,6 +26,7 @@ body {
     max-width: 100vw;
     padding: 0;
     margin: 0; 
+    overflow-x: hidden;
 }
 
 h2 {
@@ -73,7 +74,6 @@ p {
 
 .hero-section {
     margin: 0px 78px 200px 76px;
-    max-width: 2560px;
 }
 
        /* header style */
@@ -88,6 +88,7 @@ p {
 .header-logo {
     color: #0E0578;
     mix-blend-mode: darken;
+    cursor: pointer;
 }
 
 .hero-section header nav {
@@ -175,7 +176,6 @@ p {
     position: relative;
     top: 0;
     left: 0;
-    max-width: 2560px;
     padding-left: 46px;
     padding-bottom: 66px;
     background: rgba(67, 186, 253, 0.06);
@@ -207,7 +207,6 @@ p {
     margin-top: 300px;
     margin-bottom: 270px;
     background: rgba(255, 214, 150, 0.20);
-    max-width: 2560px;
 }
 
 .head-third-page {
@@ -236,7 +235,6 @@ p {
 
 #cont {
     background: rgba(67, 186, 253, 0.06);
-    max-width: 2560px;
     margin-bottom: 208px;
 }
 
@@ -317,7 +315,6 @@ button {
 footer {
     background-color: rgba(255, 214, 150, 0.20);
 
-    max-width: 2560px;
     padding-top: 130px;
 }
 
@@ -435,6 +432,7 @@ footer {
 .logos > div {
     width: 70px;
     height: 70px;
+    cursor: pointer;
 }
 
 #youtube-logo {
